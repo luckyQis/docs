@@ -1,10 +1,22 @@
+const moment = require('moment');
 module.exports = {
+    base: '/docs/',
     title: "这是一个title标题",
     description: '这是一个description',
     head:[
         ['link',{rel: 'icon',href: '/assets/img/favicon.ico'}],
         ['meta',{name: 'keywords', content: 'vuepress介绍，vuepress说明'}],
         ['meta',{name: 'author', content: '作者'}],
+    ],
+    plugins: [
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp) => {
+            return moment(timestamp).format("LLLL");
+          }
+        }
+      ]
     ],
     // logo图标
     themeConfig: {
@@ -63,6 +75,6 @@ module.exports = {
                  ],
                 initialOpenGroupIndex: -1 // 可选的, 默认值是 0
               },
-          ]
+          ],
     },
 }

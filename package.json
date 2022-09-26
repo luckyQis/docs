@@ -19,5 +19,8 @@
   "homepage": "https://github.com/luckyQis/docs#readme",
   "devDependencies": {
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }

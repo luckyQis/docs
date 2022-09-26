@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "这是一个title标题",
   "description": "这是一个description",
-  "base": "/",
+  "base": "/docs/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/assets/img/favicon.ico"
+        "href": "/docs/assets/img/favicon.ico"
       }
     ],
     [
@@ -29,14 +29,6 @@ export const siteData = {
     ]
   ],
   "pages": [
-    {
-      "title": "这是一个html页面",
-      "frontmatter": {},
-      "regularPath": "/about/about.html",
-      "relativePath": "about/about.md",
-      "key": "v-771d394a",
-      "path": "/about/about.html"
-    },
     {
       "title": "Home",
       "frontmatter": {
@@ -65,77 +57,9 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-1bccbaa4",
-      "path": "/"
-    },
-    {
-      "title": "关于我b",
-      "frontmatter": {},
-      "regularPath": "/about/bbb.html",
-      "relativePath": "about/bbb.md",
-      "key": "v-610bbfea",
-      "path": "/about/bbb.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我b",
-          "slug": "关于我b"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 3,
-          "title": "三级标题4",
-          "slug": "三级标题4"
-        }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-17a1f829",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题3",
-          "slug": "三级标题3"
-        },
-        {
-          "level": 3,
-          "title": "三级标题4",
-          "slug": "三级标题4"
-        }
-      ]
+      "path": "/",
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
     },
     {
       "title": "关于我",
@@ -170,7 +94,93 @@ export const siteData = {
           "title": "三级标题4",
           "slug": "三级标题4"
         }
-      ]
+      ],
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
+    },
+    {
+      "title": "这是一个html页面",
+      "frontmatter": {},
+      "regularPath": "/about/about.html",
+      "relativePath": "about/about.md",
+      "key": "v-771d394a",
+      "path": "/about/about.html",
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
+    },
+    {
+      "title": "关于我b",
+      "frontmatter": {},
+      "regularPath": "/about/bbb.html",
+      "relativePath": "about/bbb.md",
+      "key": "v-610bbfea",
+      "path": "/about/bbb.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我b",
+          "slug": "关于我b"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 3,
+          "title": "三级标题4",
+          "slug": "三级标题4"
+        }
+      ],
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-17a1f829",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题3",
+          "slug": "三级标题3"
+        },
+        {
+          "level": 3,
+          "title": "三级标题4",
+          "slug": "三级标题4"
+        }
+      ],
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
     },
     {
       "title": "关于我a",
@@ -205,7 +215,9 @@ export const siteData = {
           "title": "三级标题4",
           "slug": "三级标题4"
         }
-      ]
+      ],
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
     },
     {
       "title": "关于我b",
@@ -240,7 +252,9 @@ export const siteData = {
           "title": "三级标题4",
           "slug": "三级标题4"
         }
-      ]
+      ],
+      "lastUpdated": "Monday, September 26, 2022 12:51 PM",
+      "lastUpdatedTimestamp": 1664167881000
     }
   ],
   "themeConfig": {
